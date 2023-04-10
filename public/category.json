@@ -1,21 +1,25 @@
 [
     {
-        "categoryLogo" : "",
+        "id" : "1",
+        "categoryLogo" : "../src/assets/Icons/accounts 1.png",
         "categoryName" : "Account & Finance",
         "jobsAvailable" : "300 Jobs Available"
     },
     {
-        "categoryLogo" : "",
+        "id" : "2",
+        "categoryLogo" : "../src/assets/Icons/business 1.png",
         "categoryName" : "Creative Design",
         "jobsAvailable" : "100+ Jobs Available"
     },
     {
-        "categoryLogo" : "",
+        "id" : "3",
+        "categoryLogo" : "../src/assets/Icons/social-media 1.png",
         "categoryName" : "Marketing & Sales",
         "jobsAvailable" : "150 Jobs Available"
     },
     {
-        "categoryLogo" : "",
+        "id" : "4",
+        "categoryLogo" : "../src/assets/Icons/chip 1.png",
         "categoryName" : "Engineering Job",
         "jobsAvailable" : "224 Jobs Available"
     }

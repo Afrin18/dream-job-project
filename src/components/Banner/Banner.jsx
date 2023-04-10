@@ -10,7 +10,7 @@ const Banner = () => {
                     <span className=''>Closer To Your</span><br/>
                     <span className='text-violet-500'>Dream Job</span>
                 </h2>
-                <p className=''>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
+                <p className='mt-4'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                 <button className='text-white bg-violet-500 hover:bg-violet-700 mt-8'>Get Started</button>
             </div>
             <div>
