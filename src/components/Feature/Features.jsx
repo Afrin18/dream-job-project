@@ -1,8 +1,10 @@
 import React from 'react';
 import CategoryData from '../CategoryData/CategoryData';
 import FeatureData from '../FeatureData/FeatureData';
+import { useNavigate, useLoaderData } from 'react-router-dom';
 
-const Features = ({ features }) => {
+const Features = () => {
+    const features = useLoaderData();
 
     return (
         <div>

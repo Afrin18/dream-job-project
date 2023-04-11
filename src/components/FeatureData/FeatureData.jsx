@@ -1,12 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import locationIcon from '../../assets/Icons/Frame-4.png';
 import salaryIcon from '../../assets/Icons/Frame.png';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const FeatureData = ({ feature }) => {
-    // console.log(feature);
 
-    const { companyLogo, jobTitle, companyName, category, type, location, salary } = feature;
+    const { companyLogo, jobTitle, companyName, category, type, location, salary, jobDes, jobRes} = feature;
+    // console.log(feature)
+    const [details, setDetails] = useState([]);
+
+    const handleAddToJobDetails = () => {
+        // let newCart = [];
+        // const exists = cart.find(pd => pd.id === product.id);
+        // if(!exists){
+        //     product.quantity = 1;
+        //     newCart = [...cart, product];
+        // }
+        // else{
+        //     exists.quantity = exists.quantity + 1;
+        //     const remaining = cart.filter(pd => pd.id !== product.id);
+        //     newCart = [...remaining, exists];
+        // }
+
+        // setCart(newCart);
+    }
 
     return (
         <div className='border border-gray-200 p-8 w-96 rounded'>
