@@ -38,6 +38,11 @@ const Statistics = () => {
             id: 7, 
             assign_name: "Assignment 7", 
             marks: 60, 
+        },
+        { 
+            id: 8, 
+            assign_name: "Assignment 8", 
+            marks: 52, 
         }
     ];
 
