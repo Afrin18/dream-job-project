@@ -3,7 +3,7 @@ import bannerImage from '../../assets/All Images/P3OLGJ1 copy 1.png'
 
 const Banner = () => {
     return (
-        <div className='flex space-x-70 items-center'>
+        <div className='md:flex md:justify-center space-x-70 items-center'>
             <div className='ml-0'>
                 <h2 className='text-6xl font-semibold font-serif'>
                     <span>One Step</span><br/> 

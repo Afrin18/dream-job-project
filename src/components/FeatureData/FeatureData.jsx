@@ -9,28 +9,30 @@ const FeatureData = ({ feature }) => {
     const { companyLogo, jobTitle, companyName, category, type, location, salary } = feature;
 
     return (
-        <div className='border-2 border-gray-300 p-8 w-96'>
+        <div className='border border-gray-200 p-8 w-96 rounded'>
             <img src={companyLogo} alt="" />
-            <p>{jobTitle}</p>
-            <p>{companyName}</p>
-            <div>
-                <button>{category}</button>
-                <button>{type}</button>
+            <p className='font-bold mt-6 text-lg'>{jobTitle}</p>
+            <p className='my-3'>{companyName}</p>
+            <div className=''>
+                <button className='mr-5 text-sm text-violet-600 hover:text-violet-900 border border-violet-400 hover:border-violet-800 rounded py-1 px-4'>{category}</button>
+
+                <button className='mr-5 text-sm text-violet-600 hover:text-violet-900 border border-violet-400 hover:border-violet-800 rounded py-1 px-4'>{type}</button>
             </div>
 
-            <div className='flex gap-8'>
+            <div className='flex gap-8 my-3'>
                 <div className='flex'>
                     <img src={locationIcon} alt="" />
                     <p><small>{location}</small></p>
                 </div>
-                <div className='flex'><small>Salary:</small>
+                <div className='flex'>
                     <img src={salaryIcon} alt="" />
+                    <p><small>Salary:</small></p>
                     <p><small>{salary}</small></p>
                 </div>
             </div>
 
             <Link to='/viewDetails'>
-                <button className='text-white bg-violet-500 hover:bg-violet-700'>View Details</button>
+                <button className='text-white bg-violet-500 hover:bg-violet-700 px-3 py-1 rounded'>View Details</button>
             </Link>
         </div>
     );

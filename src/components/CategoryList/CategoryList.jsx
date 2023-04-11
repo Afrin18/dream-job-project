@@ -12,10 +12,10 @@ const CategoryList = () => {
     }, [])
 
     return (
-        <div>
+        <div className="sm:w-50">
             <h2 className='text-4xl font-bold text-center text-black mt-16'>Job Category List </h2>
             <p className='text-center my-4'><small>Explore thousands of job opportunities with all the information you need. Its your future</small></p>
-            <div className='flex sm:flex-none gap-10 items-center justify-center'>
+            <div className='md:flex md:items-center md:justify-center gap-10 '>
                 {
                     datas.map(data => <CategoryData
                         key={data.id}

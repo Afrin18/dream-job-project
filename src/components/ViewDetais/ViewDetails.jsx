@@ -2,8 +2,8 @@ import React from 'react';
 
 const ViewDetails = () => {
     return (
-        <div>
-            <h2 className='text-center'>Job Details</h2>
+        <div className='mt-20'>
+            <h2 className='text-center font-bold'>Job Details</h2>
         </div>
     );
 };
