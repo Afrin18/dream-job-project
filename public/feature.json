@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
         "jobTitle" : "Technical Database Engineer",
         "companyName" : "Google LLC",
@@ -16,7 +16,7 @@
         "email" : "amit@gmail.com"
     },
     {
-        "id": "2",
+        "id": 2,
         "companyLogo": "../src/assets/Logo/netflix-4 1.png",
         "jobTitle" : "Senior product designer",
         "companyName" : "Netflix",
@@ -32,7 +32,7 @@
         "email" : "tthd@gmail.com"
     },
     {
-        "id": "3",
+        "id": 3,
         "companyLogo": "../src/assets/Logo/tesla-9 1.png",
         "jobTitle" : "software engineer",
         "companyName" : "Tesla",
@@ -48,7 +48,7 @@
         "email" : "afrin@gmail.com"
     },
     {
-        "id": "4",
+        "id": 4,
         "companyLogo": "../src/assets/Logo/Group 10021.png",
         "jobTitle" : "network engineer",
         "companyName" : "IT firm",
@@ -64,7 +64,7 @@
         "email" : "sohan@gmail.com"
     },
     {
-        "id": "5",
+        "id": 5,
         "companyLogo": "../src/assets/Logo/google-1-1 1.png",
         "jobTitle" : "web developer",
         "companyName" : "Google",
@@ -80,7 +80,7 @@
         "email" : "shaha@gmail.com"
     },
     {
-        "id": "6",
+        "id": 6,
         "companyLogo": "../src/assets/Logo/tesla-9 1.png",
         "jobTitle" : "admin",
         "companyName" : "Tesla",

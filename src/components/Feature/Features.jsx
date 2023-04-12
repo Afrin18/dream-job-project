@@ -1,10 +1,12 @@
 import React from 'react';
 import CategoryData from '../CategoryData/CategoryData';
 import FeatureData from '../FeatureData/FeatureData';
-import { useNavigate, useLoaderData } from 'react-router-dom';
+import { useNavigate, useLoaderData, Link } from 'react-router-dom';
 
-const Features = () => {
-    const features = useLoaderData();
+const Features = ({features}) => {
+    // const features = useLoaderData();
+    // const {id, companyLogo, jobTitle, companyName, category, type, location, salary, jobDes, jobRes} = feature;
+    // console.log(feature)
 
     return (
         <div>
